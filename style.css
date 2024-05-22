@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+:root {
+   --primary-color: #3b6ada;
+   --white: #fff;
+   --bg-gradient: linear-gradient(to left, #314f96, #182848);
+}
+
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Nunito', sans-serif;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   width: 100%;
+   min-height: 100vh;
+   background: var(--bg-gradient);
+   color: var(--white);
+   overflow-x: hidden;
+}
+
+.container {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.flex {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.hero,
+.section {
+   width: 100%;
+   padding: 40px 0;
+   overflow: hidden;
+}
+
+.mb {
+   margin-bottom: 30px;
+}
+
+.mt {
+   margin-top: 20px;
+}
+
+.section {
+   background: #182848;
+   position: relative;
+   padding: 80px 0;
+}
+
+.primary {
+   font-size: 35px;
+   font-weight: 700;
+}
+
+.secondary {
+   font-size: 25px;
+   font-weight: 700;
+}
+
+.teriary {
+   font-size: 15px;
+}
+
+.bg-gradient {
+   background: var(--bg-gradient);
+}
+
+/* Nav Bar */
+.menu {
+   width: 100%;
+   background: linear-gradient(to right, #12203b 70%, #182848);
+   padding: 20px 0;
+}
+
+.menu .container {
+   align-items: center;
+}
+
+.mobile-nav,
+.mobile-close {
+   display: none;
+}
+
+.logo {
+   cursor: pointer;
+}
+
+.logo img {
+   width: 150px;
+   height: auto;
+}
+
+.nav_items {
+   list-style: none;
+}
+
+.nav_item {
+   display: inline-block;
+   margin-right: 30px;
+   font-size: 18px;
+   font-weight: 400;
+}
+
+/* Nav Bar */
